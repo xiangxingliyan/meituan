@@ -1,0 +1,597 @@
+i,
+ul,
+ol,
+p,
+a,
+em,
+span,
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  text-decoration: none;
+  list-style: none;
+}
+html,
+body,
+div,
+ul,
+li,
+ol,
+img,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  color: #333;
+  background-color: #f0efed;
+}
+img {
+  border: none;
+}
+/*自适应宽高*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #06c1ae;
+}
+a:hover {
+  cursor: pointer;
+}
+html,
+body {
+  font-size: 12px;
+  color: #333;
+  background-color: #f0efed;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont/iconfont.eot');
+  /* IE9*/
+  src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont/iconfont.woff') format('woff'), /* chrome、firefox */ url('iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('iconfont/iconfont.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: 'iconfont';
+  font-size: 1.5rem;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  background: #06c1ae;
+  border-bottom: 1px solid #21897d;
+}
+header .address {
+  width: 6rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+header .address a {
+  display: block;
+  height: 100%;
+}
+header .address a span {
+  display: block;
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 1rem;
+}
+header .h-search {
+  flex: 1;
+  border-radius: .5rem;
+  background: rgba(0, 0, 0, 0.15);
+  height: 3rem;
+  line-height: 3rem;
+  margin-top: 0.5rem;
+  position: relative;
+}
+header .h-search i {
+  position: absolute;
+  left: 1rem;
+  color: #FFFFFF;
+  top: 0;
+}
+header .h-search .search-box {
+  display: block;
+  padding-left: 3rem;
+  color: #68dbce;
+}
+header .h-my {
+  width: 4rem;
+  height: 100%;
+  text-align: center;
+}
+header .h-my a {
+  display: inline-block;
+  margin-top: .5rem;
+  color: white;
+}
+header .h-my a .my {
+  display: inline-block;
+  margin: 0 .4rem;
+}
+header .h-my a .my .iconfont {
+  display: block;
+  margin-bottom: .5rem;
+}
+nav .swiper-pagination {
+  bottom: 4px!important;
+}
+nav .list {
+  border-top: 1px solid #DDD8CE;
+  border-right: 0 solid #DDD8CE;
+  border-bottom: 1px solid #DDD8CE;
+  border-left: 0 solid #DDD8CE;
+  background-color: #fff;
+  position: relative;
+}
+nav .first {
+  border-top: none;
+}
+nav .first .icon-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+nav .first .icon-list li {
+  box-sizing: border-box;
+  width: 20%;
+  height: 8rem;
+  text-align: center;
+}
+nav .first .icon-list li a {
+  display: block;
+  padding: 1rem 0;
+  color: #333;
+}
+nav .first .icon-list li .icon {
+  display: block;
+  margin: auto;
+  margin-bottom: .5rem;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+nav .first .icon-list li .icon .iconfont {
+  font-size: 2rem;
+}
+nav .first .icon-list li .icon-word {
+  font-size: 0.9rem;
+}
+nav .first .icon-list li .meishi {
+  background: orange;
+}
+nav .first .icon-list li .movie {
+  background: #ff6767;
+}
+nav .first .icon-list li .hotel {
+  background: #8a90fa;
+}
+nav .first .icon-list li .happy {
+  background: #fed030;
+}
+nav .first .icon-list li .takeout {
+  background: #fd9d21;
+}
+nav .first .icon-list li .ktv {
+  background: #fed030;
+}
+nav .first .icon-list li .play {
+  background: #4dc6ee;
+}
+nav .first .icon-list li .beaut {
+  background: #ff80c2;
+}
+nav .first .icon-list li .snack {
+  background: #fd9d21;
+}
+nav .first .icon-list li .train {
+  background: #599eec;
+}
+nav .daogou {
+  margin-top: 1rem;
+  display: flex;
+}
+nav .daogou .left {
+  flex: 1;
+  padding: 1rem 0;
+}
+nav .daogou .left .react {
+  display: block;
+  height: 12.5rem;
+  border-right: 1px solid #ddd8ce;
+  text-align: center;
+}
+nav .daogou .left .react .info {
+  display: inline-block;
+  margin-top: 1rem;
+}
+nav .daogou .left .react .info strong {
+  display: block;
+  color: #55a40f;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: .5rem;
+}
+nav .daogou .left .react .info i {
+  color: #666;
+  font-size: .5rem;
+}
+nav .daogou .left .react .imgbox {
+  display: block;
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
+}
+nav .daogou .left .react .imgbox img {
+  height: 100%;
+}
+nav .daogou .right {
+  flex: 2;
+}
+nav .daogou .right .top {
+  padding-top: 1rem;
+}
+nav .daogou .right .top .react {
+  display: block;
+  height: 6rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd8ce;
+}
+nav .daogou .right .top .react .info {
+  display: inline-block;
+}
+nav .daogou .right .top .react .info strong {
+  display: block;
+  color: #ff3f0d;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: .5rem;
+}
+nav .daogou .right .top .react .info i {
+  color: #666;
+  font-size: .5rem;
+}
+nav .daogou .right .top .react .imgbox {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+}
+nav .daogou .right .top .react .imgbox img {
+  height: 100%;
+}
+nav .daogou .right .bottom {
+  display: flex;
+  padding: 1rem;
+}
+nav .daogou .right .bottom .bottom_left {
+  flex: 1;
+}
+nav .daogou .right .bottom .bottom_left .react {
+  display: block;
+  height: 6rem;
+  text-align: center;
+}
+nav .daogou .right .bottom .bottom_left .react .info {
+  display: block;
+}
+nav .daogou .right .bottom .bottom_left .react .info strong {
+  display: block;
+  color: #f742a0;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: .5rem;
+}
+nav .daogou .right .bottom .bottom_left .react .info i {
+  color: #666;
+  font-size: .5rem;
+}
+nav .daogou .right .bottom .bottom_left .react .imgbox {
+  display: block;
+  width: 5rem;
+  height: 3rem;
+  margin: auto;
+}
+nav .daogou .right .bottom .bottom_left .react .imgbox img {
+  height: 100%;
+}
+nav .daogou .right .bottom .bottom_right {
+  flex: 1;
+}
+nav .daogou .right .bottom .bottom_right .react {
+  display: block;
+  height: 6rem;
+  text-align: center;
+}
+nav .daogou .right .bottom .bottom_right .react .info {
+  display: block;
+}
+nav .daogou .right .bottom .bottom_right .react .info strong {
+  display: block;
+  color: #ff8601;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: .5rem;
+}
+nav .daogou .right .bottom .bottom_right .react .info i {
+  color: #666;
+  font-size: .5rem;
+}
+nav .daogou .right .bottom .bottom_right .react .colockbox {
+  margin-top: 1rem;
+}
+nav .daogou .right .bottom .bottom_right .react .colockbox span {
+  background: black;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+.fn-text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.guessyou {
+  padding: 1rem 1rem;
+  background: #fff;
+}
+.guessyou dt {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #DDD8CE;
+}
+.guessyou dd {
+  padding: 1rem 0;
+  border-bottom: 1px solid #DDD8CE;
+}
+.guessyou dd .react {
+  display: block;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+.guessyou dd .react .imgbox {
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+}
+.guessyou dd .react .imgbox img {
+  height: 100%;
+}
+.guessyou dd .react .imgbox .nolooking {
+  position: absolute;
+  overflow: hidden;
+  width: 9rem;
+  height: 5rem;
+  z-index: 1;
+}
+.guessyou dd .react .imgbox .nolooking::after {
+  content: "免预约";
+  font-size: 1rem;
+  background: #06c1ae;
+  color: #fff;
+  padding: 0.3rem;
+  position: absolute;
+  transform: rotateZ(-45deg);
+  width: 6.3rem;
+  text-align: center;
+  left: -2.3rem;
+  top: .5rem;
+}
+.guessyou dd .react .describe {
+  margin-left: 6.5rem;
+  position: relative;
+  height: 6rem;
+}
+.guessyou dd .react .describe .title {
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.guessyou dd .react .describe .explain {
+  font-size: .5rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.guessyou dd .react .describe .price {
+  position: absolute;
+  width: 100%;
+}
+.guessyou dd .react .describe .price .price_num {
+  font-size: 1.2rem;
+  color: #06c1ae;
+}
+.guessyou dd .react .describe .price .price_rmb {
+  font-size: 1rem;
+  color: #06c1ae;
+}
+.guessyou dd .react .describe .price .tag {
+  border: 1px solid #f90;
+  color: #f90;
+  line-height: 1.5;
+  display: inline-block;
+  padding: 0 .5rem;
+  font-size: .5rem;
+  border-radius: .3rem;
+}
+.guessyou dd .react .describe .price .sold {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  font-size: 1rem;
+  color: #666;
+}
+.guessyou .groupbuying {
+  border-bottom: 1px solid #DDD8CE;
+  border-top: 1px solid #DDD8CE;
+}
+.guessyou .groupbuying a {
+  font-size: 1.2rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  display: block;
+  position: relative;
+  color: #06c1ae;
+}
+.guessyou .groupbuying a span {
+  position: absolute;
+  right: 0;
+  font-size: 2rem;
+}
+footer {
+  width: 100%;
+  background-color: #f0efed;
+  border-top: 1px solid #ddd;
+}
+footer .footer-bar {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+}
+footer .footer-bar .login {
+  border: 1px solid #06c1ae;
+  padding: 0 1.5rem;
+  color: #06c1ae;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+footer .footer-bar .bar-right {
+  float: right;
+  line-height: 2rem;
+}
+footer .footer-bar .bar-right .btn {
+  border: 1px solid #06c1ae;
+  padding: 0 2rem;
+  color: #06c1ae;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+footer .footer-nav ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+footer .footer-nav ul li {
+  border-right: 1px solid #666;
+  text-align: center;
+  flex: 1;
+}
+footer .footer-nav ul li:last-child {
+  border: none;
+}
+footer .footer-nav ul li a {
+  color: #06c1ae;
+  display: block;
+}
+footer .footer-links {
+  text-align: center;
+  margin: 2rem 0;
+}
+footer .footer-copyright {
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+footer .footer-copyright .hr {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  border-top: 1px solid #999;
+}
+footer .footer-copyright span {
+  position: relative;
+  padding: 0 1rem;
+  background-color: #f0efed;
+}
+footer .footer-copyright span a {
+  color: #999;
+}
+.top-btn {
+  display: none;
+  position: fixed;
+  right: 2rem;
+  bottom: 7rem;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  background: #06c1ae;
+  z-index: 130;
+  border-radius: 50%;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1rem;
+}
+.top-btn .iconfont {
+  font-size: 2rem;
+  color: white;
+}
+/* 适配ipad以下的机型，主要是iphone6 plus */
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+/* iphone6 */
+@media (min-width: 375px) and (max-width: 413px) {
+  html {
+    font-size: 14px;
+  }
+}
+/* iphone5 */
+@media (max-width: 374px) {
+  html {
+    font-size: 12px;
+  }
+}
+/* 判断横竖屏 */
+/*
+         * landscape    横屏 
+         * portrait     竖屏 
+         */
+@media (orientation: portrait) {
+}
