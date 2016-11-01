@@ -461,7 +461,8 @@ nav .daogou .right .bottom .bottom_right .react .colockbox span {
   color: #f90;
   line-height: 1.5;
   display: inline-block;
-  padding: .2rem .5rem;
+  margin-left: .3rem;
+  padding: 0 .5rem;
   font-size: .8rem;
   border-radius: .3rem;
 }
