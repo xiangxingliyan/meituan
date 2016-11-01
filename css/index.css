@@ -348,6 +348,8 @@ nav .daogou .right .bottom .bottom_right .react .info i {
 }
 nav .daogou .right .bottom .bottom_right .react .colockbox {
   margin-top: 1rem;
+  color: #333;
+  text-align: center;
 }
 nav .daogou .right .bottom .bottom_right .react .colockbox span {
   background: black;
@@ -414,8 +416,10 @@ nav .daogou .right .bottom .bottom_right .react .colockbox span {
   height: 6rem;
 }
 .guessyou dd .react .describe .title {
-  margin-bottom: 0.7rem;
-  font-size: 1.1rem;
+  /*margin-bottom: 0.7rem;*/
+  padding-bottom: 0.7rem;
+  padding-top: .5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #333;
   overflow: hidden;
@@ -423,7 +427,7 @@ nav .daogou .right .bottom .bottom_right .react .colockbox span {
   white-space: nowrap;
 }
 .guessyou dd .react .describe .explain {
-  font-size: .5rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   color: #666;
   overflow: hidden;
