@@ -461,9 +461,9 @@ nav .daogou .right .bottom .bottom_right .react .colockbox span {
   color: #f90;
   line-height: 1.5;
   display: inline-block;
-  margin-left: .3rem;
+  margin-left: .5rem;
   padding: 0 .5rem;
-  font-size: .8rem;
+  font-size: 1rem;
   border-radius: .3rem;
 }
 .guessyou dd .react .describe .price .sold {
