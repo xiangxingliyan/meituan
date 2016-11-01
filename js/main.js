@@ -82,7 +82,7 @@ function ajax (callback) {
 	
 	$.ajax({
 		type:"get",
-		url:'http://diviner.jd.com/diviner?p=610009&uuid=12396477&lid='+i+'&lim=5&cb=tempGuessLikeCallback',
+		url:'https://diviner.jd.com/diviner?p=610009&uuid=12396477&lid='+i+'&lim=5&cb=tempGuessLikeCallback',
 		async:true,
 		'dataType':'jsonp',
 		'jsonp': 'callback',
