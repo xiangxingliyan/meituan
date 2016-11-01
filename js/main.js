@@ -96,7 +96,7 @@ function ajax (callback) {
 			$.each(data,function(idx,obj){
 
 				// 把json的图片路径先放在新增的data-lazy-img属性里面，等数据处理完了再替换src属性
-				_html += '<dd><a href="#" class="react"><div class="imgbox"><span class="nolooking"></span><img src="img/1.gif" data-lazy-img="http://img13.360buyimg.com/n1/s200x200_'+ obj.img +'"/></div><div class="describe"><div class="title">'+obj.t+'</div><div class="explain">'+obj.t+'</div><div class="price"><span class="price_num">'+obj.jp+'</span><span class="price_rmb">元</span><span class="tag">新用户1元抢</span><span class="sold">已售'+obj.c3+'</span></div></div></a></dd>';
+				_html += '<dd><a href="#" class="react"><div class="imgbox"><span class="nolooking"></span><img src="img/meituan.png" data-lazy-img="http://img13.360buyimg.com/n1/s200x200_'+ obj.img +'"/></div><div class="describe"><div class="title">'+obj.t+'</div><div class="explain">'+obj.t+'</div><div class="price"><span class="price_num">'+obj.jp+'</span><span class="price_rmb">元</span><span class="tag">新用户1元抢</span><span class="sold">已售'+obj.c3+'</span></div></div></a></dd>';
 
 			});
 			$('<div/>').addClass('list-'+index).html(_html).appendTo($('.guessyou .allList'));

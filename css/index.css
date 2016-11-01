@@ -243,7 +243,7 @@ nav .daogou .left .react .info strong {
 }
 nav .daogou .left .react .info i {
   color: #666;
-  font-size: .5rem;
+  font-size: 1rem;
 }
 nav .daogou .left .react .imgbox {
   display: block;
@@ -344,7 +344,7 @@ nav .daogou .right .bottom .bottom_right .react .info strong {
 }
 nav .daogou .right .bottom .bottom_right .react .info i {
   color: #666;
-  font-size: .5rem;
+  font-size: 1rem;
 }
 nav .daogou .right .bottom .bottom_right .react .colockbox {
   margin-top: 1rem;
@@ -391,9 +391,14 @@ nav .daogou .right .bottom .bottom_right .react .colockbox span {
   text-align: center;
   overflow: hidden;
   position: absolute;
+  
+  
 }
 .guessyou dd .react .imgbox img {
   height: 100%;
+  width: 100%;
+  background: #E0E0E0;
+  
 }
 .guessyou dd .react .imgbox .nolooking {
   position: absolute;
@@ -432,7 +437,7 @@ nav .daogou .right .bottom .bottom_right .react .colockbox span {
   white-space: nowrap;
 }
 .guessyou dd .react .describe .explain {
-  font-size: .8rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   color: #666;
   overflow: hidden;
