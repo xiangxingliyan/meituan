@@ -184,7 +184,7 @@ nav .first .icon-list li .icon .iconfont {
   font-size: 2rem;
 }
 nav .first .icon-list li .icon-word {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 nav .first .icon-list li .meishi {
   background: orange;
@@ -386,8 +386,8 @@ nav .daogou .right .bottom .bottom_right .react .colockbox span {
   box-sizing: border-box;
 }
 .guessyou dd .react .imgbox {
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   text-align: center;
   overflow: hidden;
   position: absolute;
@@ -587,7 +587,7 @@ footer .footer-copyright span a {
 /* 适配ipad以下的机型，主要是iphone6 plus */
 @media (max-width: 767px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 /* iphone6 */
